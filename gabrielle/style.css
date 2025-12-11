@@ -1,0 +1,74 @@
+body {
+font-family: Arial, sans-serif;
+background: #bbb7b7;
+display: flex;
+justify-content: center;
+padding-top: 60px;
+}
+
+
+.container {
+background: #fff;
+padding: 40px;
+width: 450px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+h1 {
+text-align: center;
+text-transform: lowercase;
+}
+
+
+.inputs {
+display: flex;
+gap: 10px;
+margin-bottom: 20px;
+}
+
+
+input {
+flex: 1;
+padding: 8px;
+border-radius: 6px;
+border: 1px solid #bbb;
+}
+
+
+button {
+padding: 8px 12px;
+border: none;
+border-radius: 6px;
+background: #333;
+color: white;
+cursor: pointer;
+}
+
+
+button.danger {
+background: #d9534f;
+}
+
+
+ul {
+list-style: none;
+padding: 0;
+}
+
+
+li {
+background: #eee;
+padding: 8px;
+margin-bottom: 8px;
+display: flex;
+justify-content: space-between;
+border-radius: 6px;
+}
+
+
+li button {
+background: #d9534f;
+padding: 4px 8px;
+}
